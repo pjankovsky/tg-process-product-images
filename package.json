@@ -1,0 +1,23 @@
+{
+  "name": "tg-process-product-images",
+  "version": "1.0.0",
+  "description": "Processes images that need to be downloaded from Amazon and put on S3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pjankovsky/tg-process-product-images.git"
+  },
+  "author": "Peter <peter@jankovsky.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pjankovsky/tg-process-product-images/issues"
+  },
+  "homepage": "https://github.com/pjankovsky/tg-process-product-images#readme",
+  "dependencies": {
+    "aws-sdk": "^2.3.15",
+    "tg-node-lib": "github:pjankovsky/tg-node-lib"
+  }
+}
